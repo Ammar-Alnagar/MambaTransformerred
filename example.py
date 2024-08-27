@@ -6,7 +6,7 @@ x = torch.randint(0, 100, (1, 10))
 
 # Create an instance of the MambaTransformer model
 model = MambaTransformer(
-    num_tokens=100,  # Number of tokens in the input sequence
+    num_tokens=250,  # Number of tokens in the input sequence
     dim=512,  # Dimension of the model
     heads=8,  # Number of attention heads
     depth=4,  # Number of transformer layers
